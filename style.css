@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --nav bar-- */
+
+.navbar {
+    background-color: #7f5539;
+}
+
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #b08968;
+    background-color: whitesmoke;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* --name page-- */
+
+.name {
+    height: 650px;
+    background-color: rgb(207, 171, 127);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 150px;
+}
+
+.image-container6 {
+    background-image: url("./images/blanket-1.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 1000px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+
+button {
+    background-color: #7f5539;
+    color: #ede0d4;
+    font-size: 15px;
+    height: 75px;
+    width: 100px;
+    border: white solid 2px;
+}
+
+
+.gmail {
+    height: 45px;
+    width: 45px;
+    margin-top: -15px;
+}
+
+@media (min-width: 640px){
+    .name {
+        height: 650px;
+        background-color: rgb(207, 171, 127);
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 60px;
+        padding-top: 150px;
+    }
+    
+    .image-container6 {
+        background-image: url("./images/blanket-1.png");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 1000px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+    
+    
+    button {
+        background-color: #7f5539;
+        color: #ede0d4;
+        font-size: 15px;
+        height: 75px;
+        width: 100px;
+        border: white solid 2px;
+    }
+    
+    
+    .gmail {
+        height: 45px;
+        width: 45px;
+        margin-top: -15px;
+    }
+}
+
+
+/* --parallax 1 section-- */
+.parallax {
+    background-image: url("./images/la-6.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --about me page-- */
+.about-me {
+    margin: 0 auto;
+    height: 800px;
+    background-color: #b08968;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+
+.text-box {
+    width: 1000px;
+    height: 400px;
+    background-color: #7f5539;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.text-box p{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-pic {
+    height: 500px;
+    position: relative;
+    left: 0;
+    bottom: 50px;
+}
+
+
+/* --parallax 2 section-- */
+.parallax-2 {
+    background-image: url("./images/placita-1.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* skills page */
+.skills {
+    height: 500px;
+    background-color: #ddb892;
+}
+
+.skills h1{
+    color: white;
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:55px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #ddb892;
+}
+
+
+/* --parallax 3 section-- */
+.parallax-3 {
+    background-image: url("./images/la-metro.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* projects page */
+.projects {
+    height: 1000px;
+    background-color: #99582a;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h1{
+    color: white;
+    font-size: 50px;
+}
+
+.block-1 {
+    height: 400px;
+    width: 1000px;
+    background-color: #ddb892;
+    border-bottom: white solid 5px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.dojo-weather {
+    height: 385px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.weather-text{
+    height: 395px;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.block-2 {
+    height: 400px;
+    width: 1000px;
+    background-color: #ddb892;
+    border-bottom: white solid 5px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.likes {
+    height: 385px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+.likes-text{
+    height: 395px;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+/* .block-3 {
+    height: 400px;
+    width: 1000px;
+    background-color: #ddb892;
+    border-bottom: white solid 5px;
+    margin-bottom: 50px;
+} */
+
+/* --parallax 4 section-- */
+.parallax-4 {
+    background-image: url("./images/diversity-2..png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* diversifying tech page */
+.diversifying-tech {
+    height: 800px;
+    background-color: #ddb892;
+}
+
+.diversifying-tech h1{
+    color: white;
+    font-size: 50px;
+}
+
+.cards {
+    background-color: #7f5539;
+    color: white;
+    height: 600px;
+}
+
+.cards img{
+    height: 400px;
+}
+
+/* contact page */
+.contact {
+    height: 200px;
+    width: 8;
+    background-color: #9c6644;
+}
+
+.contact h4{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons img {
+    width: 80px;
+    height: 80px;
+}
